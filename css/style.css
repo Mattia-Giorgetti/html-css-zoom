@@ -1,0 +1,86 @@
+/* Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility  */
+
+body {
+    font-family: sans-serif;
+}
+
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Header  */
+header {
+    width: 100%;
+    background-color: black;
+    height: 70px;
+}
+.header-nav button {
+    color: white;
+    background-color: rgb(74, 74, 74);
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.header-nav {
+    float: right;
+    line-height: 70px;
+    padding-right: 10px;
+}
+.image-container {
+    position: relative;
+    margin-bottom: 6px;
+}
+
+
+/* Main  */
+main {
+    width: 100%;
+    background-color: black;
+    height: calc(100vh - 160px);
+    overflow: hidden;
+}
+.wrapper {
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh - 160px
+}
+
+.user-icon {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    color:white;
+    background-color: rgba(34, 34, 34, 0.5);
+    padding: 3px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer  */
+footer {
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    height: 90px;
+}
+
