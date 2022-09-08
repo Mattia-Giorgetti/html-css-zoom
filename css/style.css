@@ -48,7 +48,7 @@ header {
 main {
     width: 100%;
     background-color: black;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 150px);
     overflow: hidden;
 }
 .wrapper {
@@ -69,18 +69,44 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
 /* Footer  */
 footer {
     width: 100%;
     background-color: rgb(34, 34, 34);
-    height: 90px;
+    height: 80px;
+}
+.foot-icon {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+}
+.big {
+    font-size: 22px;
+    padding: 5px;
+}
+.small{
+    font-size: 10px; 
 }
 
+.foot-right {
+    color: red;
+    font-size: 12px;
+    background-color: rgb(74, 74, 74);
+    padding: 32px;
+}
+#green-icon {
+    color: rgb(71, 200, 42);
+}
+
+/* EFFETTI  */
+
+.foot-right:hover {
+    cursor: pointer;
+}
+.foot-icon:hover {
+    cursor: pointer;
+}
+.pic-box:hover {
+    cursor: pointer;
+}
