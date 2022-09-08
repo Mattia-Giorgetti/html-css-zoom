@@ -9,6 +9,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: black;
 }
 
 .flexbox {
@@ -25,6 +26,7 @@ header {
     background-color: black;
     height: 70px;
 }
+
 .header-nav button {
     color: white;
     background-color: rgb(74, 74, 74);
@@ -33,24 +35,29 @@ header {
     border: none;
     cursor: pointer;
 }
+
 .header-nav {
     float: right;
     line-height: 70px;
     padding-right: 10px;
 }
+
 .image-container {
     position: relative;
+    padding: 3px;
     margin-bottom: 6px;
 }
 
 
+
 /* Main  */
 main {
-    width: 100%;
+    width: 100vw;
     background-color: black;
     height: calc(100vh - 150px);
-    overflow: hidden;
+    overflow-y: scroll;
 }
+
 .wrapper {
     background-color: black;
     width: 90%;
@@ -62,7 +69,7 @@ main {
     position: absolute;
     bottom: 3px;
     left: 0;
-    color:white;
+    color: white;
     background-color: rgba(34, 34, 34, 0.5);
     padding: 3px;
     font-size: 12px;
@@ -74,19 +81,25 @@ footer {
     width: 100%;
     background-color: rgb(34, 34, 34);
     height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
+
 .foot-icon {
     color: white;
     text-align: center;
     font-size: 14px;
     padding: 8px;
 }
+
 .big {
     font-size: 22px;
     padding: 5px;
 }
-.small{
-    font-size: 10px; 
+
+.small {
+    font-size: 10px;
 }
 
 .foot-right {
@@ -94,19 +107,28 @@ footer {
     font-size: 12px;
     background-color: rgb(74, 74, 74);
     padding: 32px;
+    max-height: 79px;
 }
+
 #green-icon {
     color: rgb(71, 200, 42);
 }
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
 
 /* EFFETTI  */
 
 .foot-right:hover {
     cursor: pointer;
 }
+
 .foot-icon:hover {
     cursor: pointer;
 }
+
 .pic-box:hover {
     cursor: pointer;
 }
